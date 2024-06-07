@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Novo Apply Serif Text, serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  font-size: 1rem;
+  font-style: normal;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 8rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+a {
+  color: whitesmoke;
+}
+
+.logo {
+  margin-left: 4rem;
+}
+
+.logoimg {
+  height: 5rem;
+  width: 12rem;
+}
+
+button {
+  color: #00185a;
+}
+
+.apply {
+  border: 0;
+  padding-left: 1rem;
+  text-align: center;
+  text-align: justify;
+  height: 3rem;
+  width: 8rem;
+  background-color: white;
+}
+
+.side a {
+  padding-right: 2.5rem;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.subnav {
+  display: none;
+  position: absolute;
+  width: 100vw;
+  left: 0;
+  background-color: white;
+  height: 15rem;
+  padding: 1rem;
+  margin-top: 1rem;
+
+  align-items: center;
+
+  justify-content: space-around;
+}
+
+.subnav a {
+  border-right: 2px solid #bbbbbb;
+  padding: 0.5rem;
+  justify-content: start;
+  color: #00185a;
+}
+
+.subnav.show {
+  display: flex;
+}
+
+.home {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.vd {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.second {
+  margin-top: -1rem;
+  height: 200vh;
+  width: 100%;
+  padding-left: 3rem;
+  padding-top: 8rem;
+  position: relative;
+}
+
+.img1 {
+  height: 80%;
+  width: 40%;
+  background-color: white;
+}
+
+.text1 {
+  width: 50%;
+  color: #00185a;
+  padding: 5rem;
+  height: 65%;
+  background-color: white;
+  position: absolute;
+  top: 30%;
+  right: 10%;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+p {
+  font-style: normal;
+}
+
+.third {
+  height: 200vh;
+  width: 100%;
+  padding-left: 3rem;
+  padding-top: 8rem;
+  position: relative;
+}
+
+.img2 {
+  height: 60%;
+  width: 40%;
+  position: absolute;
+  top: 10%;
+  right: 20%;
+  background-color: white;
+}
+
+.text2 {
+  width: 50%;
+  padding: 5rem;
+  height: 60%;
+  background-color: white;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  color: #00185a;
+}
